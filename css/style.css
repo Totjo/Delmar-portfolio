@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(187, 187, 187);
+    margin: auto;
+    padding: 0 10%;
+}
+
+h1{
+    display: inline;
+    padding-bottom: 10px;
+    border-bottom: solid white 2px;
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover svg{
+    fill-opacity: 30%;
+}
+
+p{
+    font-size: 1vw;
+    padding: 10% 0 15% 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F1F1F;
+    height: 35vw;
+}
+
+.right{
+    width: 160%;
+}
+
+.right img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+ 
+.right .socialnetwork{
+    display: flex;
+    flex-direction: column;
+    fill: white;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    right: 12%;
+}
+
+.right svg{
+    width: 2vw;
+    padding: 5%;
+    object-fit: contain;
+}
+
+.left img{
+    width: 20%;
+    display: block;
+}
+
+.left{
+    padding: 25px 80px 14px 50px;
+    width: 150vw;
+}
+
+.link{
+    display:flex;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.link img{
+    padding-right: 2%;
+}
+
+.link div{
+    display: flex;
+    align-items: center;
+}
+
+/*Grille*/
+
+.grille{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grille div{
+    width: 25%;
+    height: 30vw;
+}
+
+.grille img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.grille .photo img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon{
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    word-break: break-all;
+}
+
+.icon img{
+    object-fit: contain;
+    padding: 2%;
+    width: 40%;
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+.icon:hover{
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.green:hover{
+    background-color: #62B64D;
+    transition: 0.2s ease-in-out;
+
+}
+
+.yellow:hover{
+    background-color: #F8D042;
+    transition: 0.2s ease-in-out;
+
+}
+
+.orange:hover{
+    background-color: #F7A34A;
+    transition: 0.2s ease-in-out;
+
+}
+
+.red:hover{
+    background-color: #FA5659;
+    transition: 0.2s ease-in-out;
+
+}
+
+.blue:hover{
+    background-color: #227694;
+    transition: 0.2s ease-in-out;
+
+}
+
+.violet:hover{
+    background-color: #484572;
+    transition: 0.2s ease-in-out;
+}
+
+.icon:hover img{
+    align-self: end;
+    width: 30%;
+    height: auto;
+    /* transform: translate(90%, -80%) scale(50%); */
+    /* transition: 1s ease-in-out; */
+}
+
+.icon b{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.icon:hover b{
+    font-weight: 600;
+    margin: 0;
+    font-size: 10vw;
+    line-height: 0.6em;
+    letter-spacing: -0.05em;
+    padding: 5% 2% 5% 2%;;
+    transition: 0.5s ease-in-out;
+
+}
+
+.grille .photo .eye{
+    object-fit: contain;
+    width: 0%;
+    transition: width 1s;
+}
+
+.photo:hover .eye{
+    display: block;
+    width: 30%;
+}
+
+.photo .fond{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.photo:hover .fond{
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.photo:hover{
+    cursor: pointer;
+}
